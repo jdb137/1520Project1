@@ -5,6 +5,15 @@
   border-bottom-color: #fff;
 }
 
-body{
-  background-image: url("../img/background.jpg");
+#bground{
+  width: 100%;
+  background: rgba(200, 54, 54, 0.5);
+}
+
+.lead{
+  color: #ffffff;
+}
+
+#videocontainer{
+  display:none;
 }

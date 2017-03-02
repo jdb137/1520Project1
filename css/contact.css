@@ -36,27 +36,33 @@ label{
     width: 250px;
     text-align: right;
     color: black;
-    font-size: 2em;
+    font-size: 1em;
     font-family: helvetica;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-shadow:none;
 }
-input {
+input,textarea {
   display: inline-block;
   float: left;
   margin-top: 10px;
   margin-bottom: 10px;
   width: 50%;
   color: black;
-  font-size: 2em;
+  font-size: 1em;
   font-family: helvetica;
+  border-radius: 0.3em;
+  border-color: black;
+  border-width: .2em;
+  border-style: solid;
 }
 
-textarea{
-  display: inline-block;
-  float: left;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 50%;
-  color: black;
-  font-size: 2em;
-  font-family: helvetica;
+form .error{
+  border-color: red;
+}
+
+#name-error,#email-error, #tarea-error{
+  padding-right: 6em;
+  clear:both;
+  width: 100%
 }

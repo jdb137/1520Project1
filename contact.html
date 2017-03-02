@@ -47,13 +47,15 @@
           </div>
 
           <div class="inner cover">
-            <form>
+            <form  method="post" enctype="text/plain" name="registration" id="mform" action="php/contact.php">
               <label>Full Name:&nbsp </label>
-              <input type="text" name="firstname">
+              <input type="text" name="name" id="name">
               <label>Email:&nbsp </label>
-              <input type="text" name="email">
+              <input type="text" name="email" id="email">
               <label>Message:&nbsp </label>
-              <textarea rows="4"></textarea>
+              <textarea rows="4" name="tarea" id="tarea"></textarea>
+              <label></label>
+              <input type="submit" value="Submit">
             </form>
           </div>
 
@@ -72,7 +74,8 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.js" charset="utf-8"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/contact.js"></script>
   </body>
 </html>
